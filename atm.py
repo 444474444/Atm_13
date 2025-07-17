@@ -6,8 +6,9 @@ while True :
         break
 
     if num == '1':
-        pass
-
+      deposit_amount= int(input('입금할 금액을 입력해주세요'))
+      balance+=deposit_amount 
+      print(f"입금하신금액은 {deposit_amount}이고, 현재잔액은 {balance}입니다")
     if num =='2':
         pass
 
@@ -16,4 +17,4 @@ while True :
     
 print(f"시스템을 종료합니다. 현재 잔액은 {balance}")
 
-s
+c
